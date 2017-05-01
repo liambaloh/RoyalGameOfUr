@@ -1,6 +1,6 @@
 # The Royal Game Of Ur
 
-An two-player implementation of the Royal Game of Ur board game, the oldest playable board game.
+A two-player implementation of the Royal Game of Ur game, the oldest playable board game.
 
 # About
 
@@ -8,14 +8,25 @@ The Royal Game of Ur, also known as the Game of Twenty Squares, is an ancient bo
 
 # Starting up
 
-The game currently requires the free asset "TextMesh Pro", available on the Unity Asset Store. This asset is however not included with this repositroy as I'm unsure of its license. 
+The game currently requires the free asset [TextMesh Pro](https://www.assetstore.unity3d.com/en/#!/content/84126), available on the Unity Asset Store. This asset is however not included with this repositroy as I'm unsure of its license. 
 
 ## First time startup:
-- Please do not open the project file before doing these steps.
-- Create an empty Unity Project
+
+Getting TextMeshPro:
+- Please do not open the project before doing these steps. If you do, re-download or discard all changes.
+- Create an temporary empty Unity Project
 - Import the "TextMesh Pro" asset from the asset store (Window/Asset Store -> Search "TextMesh Pro" -> Open asset by Unity Technologies -> Import -> Import All)
-- This will create a folder in your assets called "TextMesh Pro". Copy this folder and paste it into the cloned repository, directly into the assets folder.
-- Open the project in Unity
+- This will create a folder in your assets called "TextMesh Pro"
+- Close the temporary project
+
+Including TextMesh Pro in code
+- Download or clone this repository
+- Copy the "TextMesh Pro" folder from the tepmporary project and paste it into the cloned repository, directly into the Assets folder.
+- Open the project in Unity and everything shoudld work.
+
+# Bugs, feature requests
+
+Please report bugs or submit feature requests by [opening an issue](https://github.com/balohmatevz/RoyalGameOfUr/issues).
 
 # License
 
